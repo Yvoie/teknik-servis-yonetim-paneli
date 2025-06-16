@@ -1,0 +1,57 @@
+# İşletim Sistemi ve Editör Dosyaları
+*.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+nbproject/
+*.swp
+*~
+*.bak
+*.tmp
+
+# Composer (Eğer ileride kullanırsan)
+/vendor/
+composer.lock
+composer.phar
+
+# PHPUnit (Eğer ileride kullanırsan)
+phpunit.xml
+build/
+coverage.xml
+
+# Log Dosyaları
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# XAMPP veya benzeri yerel sunucu dosyaları (genellikle proje dışında kalır ama tedbir amaçlı)
+# Eğer XAMPP'a özel konfigürasyon dosyaları proje içine kopyalandıysa eklenebilir.
+
+# Yüklenen Dosyalar (Eğer uygulamanız dosya yükleme özelliği içeriyorsa)
+# Örneğin, kullanıcıların yüklediği resimler, belgeler vb.
+# uploads/
+# media/
+
+# Hassas Yapılandırma Dosyaları - ÇOK ÖNEMLİ!
+config/db.php
+
+# Eğer config/db.php dosyasını hariç tutuyorsan,
+# kullanıcıların kendi ayarlarını yapabilmesi için
+# bir örnek dosya ekleyebilirsin ve onu hariç tutmazsın.
+# !config/db.php.example
+
+# Geçici dosyalar ve önbellekler
+tmp/
+temp/
+cache/
+*.cache
+
+# Diğer olası gereksiz dosyalar
+# .htaccess # (Eğer sunucuya özel değilse ve herkesin farklıysa)
+# php.ini # (Sunucuya özel)
+# error_log # (PHP hata logları)
