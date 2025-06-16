@@ -39,7 +39,11 @@ Veritabanı, ilişkisel bir model üzerine kurulmuş olup aşağıdaki ana varl�
 
 Tablolar arası ilişkiler Yabancı Anahtarlar (Foreign Keys) ile, veri bütünlüğü ise Birincil Anahtarlar (Primary Keys), Benzersiz Kısıtlar (Unique Constraints) ve `NOT NULL` gibi kısıtlarla sağlanmıştır. `ON DELETE` ve `ON UPDATE` kuralları ilişkisel bütünlüğü korumak için dikkatlice tanımlanmıştır.
 
-![image](https://github.com/user-attachments/assets/1937a8b9-b6dc-49fc-b7b9-24119faf78e8)
+
+![image](https://github.com/user-attachments/assets/707bccef-dcd3-4209-893d-353d15978038)
+![image](https://github.com/user-attachments/assets/29443441-338d-493b-9557-baad9de651ea)
+
+
 
 
 ## ✨ Önemli Özellikler ve İşlevler
