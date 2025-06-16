@@ -1,0 +1,228 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 1.5em 0;
+    text-align: center;
+    border-bottom: 4px solid #3498db;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    color: #3498db;
+}
+
+main.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5em 0;
+    background-color: #34495e;
+    color: #ecf0f1;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
+
+/* Form Stilleri */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-control,
+textarea.form-control, /* textarea için de geçerli olsun */
+select.form-control { /* select için de geçerli olsun */
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+textarea.form-control {
+    min-height: 80px;
+    resize: vertical;
+}
+
+
+/* Buton Stilleri */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    border: none;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    color: white;
+}
+.btn-primary:hover {
+    background-color: #2980b9;
+}
+
+.btn-success {
+    background-color: #2ecc71;
+    color: white;
+}
+.btn-success:hover {
+    background-color: #27ae60;
+}
+
+.btn-warning {
+    background-color: #f1c40f;
+    color: #333;
+}
+.btn-warning:hover {
+    background-color: #f39c12;
+}
+
+.btn-danger {
+    background-color: #e74c3c;
+    color: white;
+}
+.btn-danger:hover {
+    background-color: #c0392b;
+}
+
+.btn-secondary, .btn-default { /* .btn-default Bootstrap uyumu için */
+    background-color: #bdc3c7;
+    color: #333;
+}
+.btn-secondary:hover, .btn-default:hover {
+    background-color: #95a5a6;
+}
+
+
+.btn:active {
+    transform: translateY(1px);
+}
+
+/* Tablo Stilleri */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+table th {
+    background-color: #ecf0f1;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Alert Mesajları */
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+.alert-error, .alert-danger { /* .alert-danger Bootstrap uyumu için */
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+.alert-info {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+}
+.alert-warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
+
+/* Linkler için genel stil */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+h2, h3 {
+    color: #2c3e50;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 0.3em;
+}
+h2 { font-size: 1.8em; }
+h3 { font-size: 1.5em; }
+/* style.css içine eklenebilir */
+.table-success td, .table > .thead > .tr > .td.table-success, .table > .thead > .tr > .th.table-success, .table > .tbody > .tr > .td.table-success, .table > .tbody > .tr > .th.table-success, .table > .tfoot > .tr > .td.table-success, .table > .tfoot > .tr > .th.table-success {
+    background-color: #d4edda !important; /* Açık yeşil */
+    /* İstersen geçiş efekti ekleyebilirsin ama class kalkınca aniden gider */
+}
